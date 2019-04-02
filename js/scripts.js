@@ -17,7 +17,10 @@ $(document).ready(function() {
         newArray.push(letter);
       }
       console.log(newArray);
+      var combine = newArray.join('');
+      console.log(combine);
     })
+
     //
     // for (var index = 0; index <= ceilingNum; index += incrementNum) {
     //   console.log(index);
