@@ -14,6 +14,9 @@ $(document).ready(function() {
       // console.log(newArray);
       var combine = newArray.join('');
       console.log(combine);
+      $('#display').text(combine);
+      $("#container2").show();
+      $("#container1").hide();
     })
     event.preventDefault();
   });
