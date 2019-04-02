@@ -10,13 +10,13 @@ $(document).ready(function() {
     newArray = [];
     letters.forEach(function(letter){
       // var userInput = $("input1#");
-      if (letter === 'a' || 'e' || 'i' || 'o' || 'u') {
+      if (letter === 'a' || letter ===  'e' || letter === 'i' || letter === 'o' ||letter ===  'u') {
         letter = "-";
-        newArray.push(letter[1]);
+        newArray.push(letter);
       } else {
-        newArray.push(letter[1]);
+        newArray.push(letter);
       }
-      console.log(letter);
+      console.log(newArray);
     })
     //
     // for (var index = 0; index <= ceilingNum; index += incrementNum) {
